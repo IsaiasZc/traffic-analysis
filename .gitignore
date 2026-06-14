@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# Data files (keep .gitkeep placeholders)
+data/raw/*.xlsx
+data/raw/*.xls
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.idea/
+.vscode/
+
+# Env
+.env*
