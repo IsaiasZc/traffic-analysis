@@ -36,7 +36,7 @@ from loaders import (
 )
 
 st.set_page_config(page_title="Peru Traffic Accidents", layout="wide")
-st.title("Peru Traffic Accidents Dashboard (2008–2024)")
+st.title("Peru Traffic Accidents Dashboard (2008-2024)")
 st.markdown(
     "Source: [ONSV open data](https://www.onsv.gob.pe/datosabiertos) - Observatorio Nacional de Seguridad Vial."
 )
